@@ -13,5 +13,7 @@ cd Nilla
 git clone $NILLA_REPO
 rm -rf $HOME/.config/hypr
 mv ./hypr $HOME/.config/
+rm -rf $HOME/.config/dunst
+mv ./dunst $HOME/.config/
 cd ..
 rm -rf Nilla
