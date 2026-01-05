@@ -5,7 +5,7 @@
 #
 
 sudo pacman -Syu --noconfirm # Update packages incase of updates.
-sudo pacman -Sy nautilus \
+sudo pacman -S nautilus \
                 rofi \
                 discord \
                 kitty \
