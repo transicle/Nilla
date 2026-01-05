@@ -9,4 +9,7 @@ sudo pacman -Sy nautilus \
                 rofi \
                 discord \
                 kitty \
-                git --noconfirm
+                git \ 
+                flatpak --noconfirm
+
+yes | flatpak update
