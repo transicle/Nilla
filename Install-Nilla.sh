@@ -5,7 +5,8 @@
 #
 
 NILLA_REPO="https://github.com/transicle/Nilla.git"
-sudo pacman -S git --noconfirm
+chmod +x ./Install-Dependencies.sh
+./Install-Dependencies.sh
 cd $HOME
 mkdir Nilla
 cd Nilla
