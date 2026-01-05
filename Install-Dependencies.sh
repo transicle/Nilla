@@ -10,6 +10,7 @@ sudo pacman -Sy nautilus \
                 discord \
                 kitty \
                 git \ 
+                dunst \
                 flatpak --noconfirm
 
 yes | flatpak update
