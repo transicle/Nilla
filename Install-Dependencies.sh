@@ -9,7 +9,7 @@ sudo pacman -S nautilus \
                 rofi \
                 discord \
                 kitty \
-                git \ 
+                git \
                 dunst \
                 flatpak --noconfirm
 
