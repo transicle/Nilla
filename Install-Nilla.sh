@@ -4,8 +4,6 @@
 #  from the GitHub repository.
 #
 
-NILLA_REPO="git@github.com:transicle/Nilla.git"
-
 chmod +x ./Install-Dependencies.sh
 ./Install-Dependencies.sh
 
