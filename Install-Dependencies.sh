@@ -13,4 +13,4 @@ sudo pacman -S nautilus \
                 dunst \
                 flatpak --noconfirm
 
-yes | flatpak update
+flatpak update -y
