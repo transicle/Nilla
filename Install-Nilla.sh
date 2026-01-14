@@ -10,7 +10,7 @@ chmod +x ./Install-Dependencies.sh
 ./Install-Dependencies.sh
 
 rm -rf $HOME/.config/hypr
-cp ./hypr $HOME/.config/
+cp -r ./hypr $HOME/.config/
 
 rm -rf $HOME/.config/dunst
-cp ./dunst $HOME/.config/
+cp -r ./dunst $HOME/.config/
