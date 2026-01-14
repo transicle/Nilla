@@ -14,3 +14,5 @@ cp -r ./hypr $HOME/.config/
 
 rm -rf $HOME/.config/dunst
 cp -r ./dunst $HOME/.config/
+
+hyprctl reload
