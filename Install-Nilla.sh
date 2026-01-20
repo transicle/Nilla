@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 #  Install the Nilla configuration files for Hyprland
 #  from the GitHub repository.
