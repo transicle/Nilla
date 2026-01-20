@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 #  Install all of the dependencies that Nilla depends on,
 #  including the applications used.
