@@ -4,7 +4,8 @@
 #  from the GitHub repository.
 #
 
-NILLA_REPO="git@github.com:transicle/Nilla"
+# NILLA_REPO="git@github.com:transicle/Nilla"
+NILLA_REPO="https://github.com/transicle/Nilla.git"
 
 cd $HOME
 mkdir NILLA_TEMP
