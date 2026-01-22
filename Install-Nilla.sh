@@ -4,7 +4,9 @@
 #  from the GitHub repository.
 #
 
-# NILLA_REPO="git@github.com:transicle/Nilla"
+chmod +x ./Permissions.sh
+./Permissions.sh
+
 NILLA_REPO="https://github.com/transicle/Nilla"
 
 cd $HOME
@@ -14,7 +16,6 @@ cd NILLA_TEMP
 git clone $NILLA_REPO
 
 cd Nilla
-chmod +x ./Install-Dependencies.sh
 ./Install-Dependencies.sh
 
 rm -rf $HOME/.config/hypr
