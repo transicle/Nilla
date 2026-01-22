@@ -7,5 +7,5 @@ if [[ "$WORKSPACE" == "special:hidden" ]]; then
 	CURRENT_WORKSPACE=$(hyprctl -j activeworkspace | jq -r '.id')
 	hyprctl dispatch movetoworkspace "$CURRENT_WORKSPACE,address:$ADDRESS"
 else
-	hyprctl dispatch movetoworkspace "special:hiden,address:$ADDRESS"
+	hyprctl dispatch movetoworkspace "special:hidden,address:$ADDRESS"
 fi
