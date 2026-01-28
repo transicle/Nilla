@@ -24,6 +24,17 @@ cp -r ./hypr $HOME/.config/
 rm -rf $HOME/.config/dunst
 cp -r ./dunst $HOME/.config/
 
+read -rp "Are you Esther? [y/N]: " answer
+
+if [[ "$answer" =~ ^[Yy]$ ]]; then
+	rm $HOME/.config/hypr/displays.conf
+	cp -r displays.conf $HOME/.config/hypr
+	echo changed displays
+    
+else
+    echo going anyways 
+fi
+
 cd $HOME
 rm -rf NILLA_TEMP
 
