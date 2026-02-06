@@ -16,7 +16,18 @@ cd NILLA_TEMP
 git clone $NILLA_REPO
 
 cd Nilla
-./Install-Dependencies.sh
+
+if [ "$EUID" -eq 0 ]; then
+	./Install-Dependencies.sh
+else
+	if command -v sudo &> /dev/null; then
+		sudo ./Install-Dependencies.sh
+	else
+		echo "Please install sudo and add yourself to sudoers"
+	fi
+fi
+
+endif
 
 rm -rf $HOME/.config/hypr
 cp -r ./hypr $HOME/.config/
