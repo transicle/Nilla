@@ -16,6 +16,8 @@ cd NILLA_TEMP
 git clone $NILLA_REPO
 
 cd Nilla
+
+chmod +x ./Install-Dependencies.sh
 ./Install-Dependencies.sh
 
 rm -rf $HOME/.config/hypr
@@ -24,15 +26,15 @@ cp -r ./hypr $HOME/.config/
 rm -rf $HOME/.config/dunst
 cp -r ./dunst $HOME/.config/
 
+rm -rf $HOME/.config/kitty
+cp -r ./kitty $HOME/.config/
+
 read -rp "Are you Esther? [y/N]: " answer
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
 	rm $HOME/.config/hypr/displays.conf
 	cp -r displays.conf $HOME/.config/hypr
-	echo changed displays
-    
-else
-    echo going anyways 
+	echo Changed displays
 fi
 
 cd $HOME
