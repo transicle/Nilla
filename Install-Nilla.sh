@@ -4,9 +4,6 @@
 #  from the GitHub repository.
 #
 
-chmod +x ./Permissions.sh
-./Permissions.sh
-
 NILLA_REPO="https://github.com/transicle/Nilla"
 
 cd $HOME
