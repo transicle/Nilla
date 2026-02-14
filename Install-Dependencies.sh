@@ -16,6 +16,7 @@ sudo pacman -S \
 	flatpak \
 	ttf-nerd-fonts-symbols \
 	ttf-nerd-fonts-symbols-mono \
+	jq \
 	--noconfirm
 
 flatpak update -y
